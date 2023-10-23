@@ -1,0 +1,11 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.dropdown label {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+

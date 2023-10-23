@@ -1,0 +1,7 @@
+.chart-wrapper.line-chart { /* this selector is more specific so that this width overrides .chart-wrapper's default width */
+  width: 100%;
+}
+
+.line-chart .chart {
+  height: 250px;
+}

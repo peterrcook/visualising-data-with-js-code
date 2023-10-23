@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battery Storage Charging Ahead</title>
+  </head>
+  <body>
+    <div id="content">
+      <section>
+        <div class="inner">
+          <h1>Battery storage charging ahead</h1>
+          <p>The need to switch to low-carbon energy production has never been greater. Wind and solar energy are effective renewable technologies but they rely on the weather. Solar panels require sunlight (not so good on a cloudy day) and wind turbines require wind.</p>
+          <p>Typically electricity needs to be produced on demand so balancing energy demand with energy production is a challenge. With fossil-fuel based production you can spin up more turbines to meet demand. However if it's a dull day with no wind blowing how do you satisfy energy demand?</p>
+          <p>This is where battery storage technology can help.</p>
+          <h3>Battery storage technology</h3>
+          <p>If solar panel and wind turbine production exceeds demand the excess electricity is stored in batteries. And when the renewable energy production drops below demand, energy from the battery is used.</p>
+          <p>The UK's Renewable Energy Planning Database (REPD) records planning applications for renewable energy projects. A quick glance shows the majority of applications are for solar panels (solar photovoltaics) and wind turbines. Surprisingly battery applications are in third place:</p>
+          <div class="chart-wrapper">
+            <canvas id="chart-1"></canvas>
+          </div>
+        </div>
+      </section>
+      <section class="dark">
+        <div class="inner">
+          <p>Battery storage ranks third in terms of the number of planning applications between 1990 and 2022. However if we examine a timeline of planning applications we see battery storage has become one of the fastest growing technologies:</p>
+          <div class="chart-wrapper">
+            <canvas id="chart-2"></canvas>
+          </div>
+          <p>While most technologies saw a plateau or decline in applications between 2020 and 2022, only solar photovoltaics and battery storage saw a rise.</p>
+        </div>
+      </section>
+      <section>
+        <div class="inner">
+          <p>Battery storage technology is scattered throughout the UK. Teal indicates battery installations in operation. Yellow indicates projects under or awaiting construction. Dark grey indicates applications under consideration and light grey indicates abandoned, refused, withdrawn or expired applications. The size indicates the power in megawatts (MW).</p>
+        </div>
+      </section>
+      <section class="map">
+        <div class="inner">
+          <div id="map"></div>
+        </div>
+      </section>
+      <section>
+        <div class="inner">
+          <p>Although there's been an marked increase in applications for battery installations only a small proportion of projects are currently in operation. However, nearly half of applications are either under construction or awaiting construction. Only 38 out of 948 applications have been refused.</p>
+          <div class="chart-wrapper">
+            <canvas id="chart-3"></canvas>
+          </div>
+        </div>
+      </section>
+      <section class="dark">
+        <div class="inner">
+          <p>According to the REPD, granting an application can take over 11 years. This depends on the nature of the project. For example wind power tends to take longer to approve. The average time to grant a solar photovoltaics project is 142 days and battery projects take slightly longer at 172 days.</p>
+          <div class="chart-wrapper">
+            <canvas id="chart-4"></canvas>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

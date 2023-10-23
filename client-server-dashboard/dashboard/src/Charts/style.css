@@ -1,0 +1,21 @@
+#charts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chart-wrapper {
+  width: 50%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .chart-wrapper {
+    width: 100%;
+  }
+}
+
+.chart {
+  height: 500px;
+}
+

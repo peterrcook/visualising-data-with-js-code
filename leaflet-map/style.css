@@ -1,0 +1,13 @@
+@import 'leaflet/dist/leaflet.css';
+
+body {
+  margin: 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+h4 {
+  margin: 0;
+}

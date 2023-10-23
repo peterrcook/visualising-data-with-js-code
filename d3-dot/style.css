@@ -1,0 +1,18 @@
+body {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #eee;
+}
+
+g.x-axis path, g.y-axis path {
+  display: none;
+}
+
+g.x-axis line {
+  stroke-dasharray: 1 1;
+  stroke: #ccc;
+}
+
+g.x-axis text, g.y-axis text {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
